@@ -4,7 +4,6 @@ const Listing = require("../model/Listing");
 
 // Add New listing
 
-
 router.post("/", async (req, res) => {
   const listing = new Listing({
     title: req.body.title,
